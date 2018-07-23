@@ -1,5 +1,5 @@
 {
-    "poolHost": "89.32.249.122",
+    "poolHost": "your.poolhost.tld",
 
     "coin": "festival",
     "symbol": "FEST",
@@ -26,7 +26,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "fyU4qC3PFPyLWLZJBywkBrFrFpyVjDvuX64UAcmSkPHTHHEbLyYPu4YFoBxzbtwS4wCy4G72Fy7cqKNLUeafw89f2BxnUiBPM",
+        "poolAddress": "**Your Pool Wallet Address**",
         "intAddressPrefix": null,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
@@ -59,6 +59,12 @@
                 "difficulty": 25000,
                 "desc": "Hidden port",
                 "hidden": true
+            },
+            {
+                "port": 9999,
+                "difficulty": 20000,
+                "desc": "SSL connection",
+                "ssl": true
             }
         ],
         "varDiff": {
@@ -129,8 +135,8 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "test",
-        "ssl": false,
+        "password": "CHANGE ME",
+        "ssl": true,
         "sslPort": 8119,
         "sslCert": "./cert.pem",
         "sslKey": "./privkey.pem",
