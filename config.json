@@ -246,7 +246,7 @@
         "source": "tradeogre",
         "currency": "USD"
     },
-	
+    
     "charts": {
         "pool": {
             "hashrate": {
@@ -297,9 +297,10 @@
                 "enabled": true
             }
         },
-    "blocks": {
+        "blocks": {
             "enabled": true,
             "days": 30
         }
+    }
 }
-}
+
