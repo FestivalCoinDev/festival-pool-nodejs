@@ -12,6 +12,7 @@
         "base58-native": "*",
         "bignum": "*",
         "cli-color": "*",
+        "cryptonote-util": "git://github.com/FestivalCoinDev/node-cryptonote-util.git",
         "cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
         "cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
         "dateformat": "*",
